@@ -1,0 +1,226 @@
+body{
+    font-family:'Sen', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    background-color: #fefdf7;
+}
+
+.res{
+    color:orange;
+}
+.nav, a{
+    background-color: #363530;
+    margin-right: 0%;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    height: 60px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.title{
+    font-size: 42px;
+    font-weight: 500;
+}
+.addyy{
+    background-color: #fefdf7;
+    color:#0c0c08;
+    margin-left: 0;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.img{
+    height: 200px;
+    width: 290px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+.pic{
+    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.main1{
+    display: flex;
+    margin-top: 6em;
+    margin-bottom: 4em;
+    margin-left: 3em;
+    margin-right:  3em;
+  
+}
+.hours{
+    text-align: center;
+    font-size: 18px;
+    line-height: 2em;
+    font-weight: 300;
+}
+.addyy {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    text-decoration: underline;
+}
+.about{
+    width: 60%;
+}
+p{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 16px;
+    word-spacing: 2px;
+    width: 75%;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.info{
+   
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+.info2{
+    display: flex;
+    flex-direction: column;
+}
+.iconsMain{
+    
+    margin-top: 8px;
+}
+.icon1{
+    width: 15px;
+    height: 19px;
+}
+.icon2{
+    width:25px;
+    height: 20px;
+}
+.Peaches{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.menu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.menutitle{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-content: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.sec1, .sec2, .sec3, .sec4{
+    
+    width: 25%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1em;
+    margin-right: 1em;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sec1img,.sec2img,.sec3img,.sec4img{
+
+    height: 50%;
+    width: 100%;
+}
+img{
+
+    height: 50%;
+    width: 100%;
+}
+.sections{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    text-transform: uppercase;
+
+}
+.s1title, .s1desc, .s1price{
+    
+    width: 100%;
+}
+.s2title, .s2desc, .s2price{
+ 
+    width: 100%;
+}
+.s3title, .s3desc, .s3price{
+
+    width: 100%;
+}
+.s4title, .s4desc, .s4price{
+    
+    width: 100%;
+}
+.s1title, .s2title, .s3title, .s4title{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+    color: maroon;
+}
+button{
+    background-color: #363530;
+    color:#fefdf7;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+
+
+}
+button:hover{
+    color: orange;
+}
+a:hover{
+    color:orange;
+}
+.s1desc, .s2desc, .s3desc, .s4desc{
+    font-size: 16px;
+}
+.s1price, .s2price, .s3price, .s4price{
+    font-size: 14px;
+}
+
+.catering{
+    border-radius: 30px;
+}
